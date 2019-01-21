@@ -1,0 +1,85 @@
+# BASE UI
+ColorColumn: ''
+Conceal: ''
+Cursor: '. light_blue'
+CursorIM: ''
+CursorColumn: ''
+CursorLine: '. dark_blue'
+CursorLineNr: 'soft_blue dark_blue'
+Directory: ''
+DiffAdd: ''
+DiffChange: ''
+DiffDelete: ''
+DiffText: ''
+EndOfBuffer: 'grayish_blue'
+ErrorMsg: ''
+VertSplit: 'gray .'
+Folded: ''
+FoldColumn: ''
+SignColumn: ''
+IncSearch: '. sad_blue'
+LineNr: 'grayish_blue'
+MatchParen: 'black cold_blue'
+ModeMsg: ''
+MoreMsg: ''
+NonText: ''
+Normal: 'white black'
+PMenu: '- dark_purple'
+PMenuSel: 'black magenta'
+PmenuSbar: ''
+PmenuThumb: ''
+Question: ''
+Search: 'darkness cold_blue'
+SpecialKey: ''
+SpellBad: ''
+SpellLocal: ''
+SpellCap: ''
+SpellRare: ''
+StatusLine: ''
+StatusLineNC: ''
+TabLine: ''
+TabLineFill: ''
+TabLineSel: ''
+Title: 'white'
+Visual: 'white sad_blue'
+VisualNOS: ''
+WarningMsg: ''
+WildMenu: ''
+
+# BASE SYNTAX
+Comment: 'gray - i'
+Constant: 'red'
+String: 'yellow' # Constant
+Character: '' # Constant
+Boolean: '' # Constant
+Number: 'orange_ish' # Constant
+Float: '' # Constant
+Identifier: ''
+Function: 'blue' # Identifier
+Statement: 'magenta'
+Conditional: '' # Statement
+Repeat: '' # Statement
+Label: '' # Statement
+Operator: '' # Statement
+Keyword: '' # Statement
+Exception: 'light_cyan' # Statement
+PreProc: ''
+Include: '' # PreProc
+Define: '' # PreProc
+Macro: '' # PreProc
+PreCondit: '' # PreProc
+Type: 'blue'
+StorageClass: '' # Type
+Structure: '' # Type
+Typedef: '' # Type
+Special: 'white'
+SpecialChar: '' # Special
+Tag: 'light_cyan' # Special
+Delimiter: 'white' # Special
+SpecialComment: '' # Special
+Debug: '' # Special
+Underlined: ''
+Ignore: ''
+Error: ''
+Todo: ''
+

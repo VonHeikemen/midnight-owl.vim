@@ -1,0 +1,60 @@
+phpConstant: '' # Constant
+phpCoreConstant: '' # Constant
+phpComment: '' # Comment
+phpDocTags: '' # PreProc
+phpDocCustomTags: '' # Type
+phpException: '' # Exception
+phpBoolean: '' # Boolean
+phpStorageClass: '' # StorageClass
+phpSCKeyword: '' # StorageClass
+phpFCKeyword: '' # Define
+phpStructure: '' # Structure
+phpStringSingle: '' # String
+phpStringDouble: '' # String
+phpBacktick: '' # String
+phpNumber: '' # Number
+phpFloat: '' # Float
+phpMethod: 'blue' # Function
+phpFunction: 'blue' # Function
+phpBaselib: '' # Function
+phpRepeat: '' # Repeat
+phpConditional: '' # Conditional
+phpLabel: '' # Label
+phpStatement: '' # Statement
+phpKeyword: 'magenta' # Statement
+phpType: 'magenta' # Type
+phpInclude: '' # Include
+phpDefine: '' # Define
+phpBackslashSequences: '' # SpecialChar
+phpBackslashDoubleQuote: '' # SpecialChar
+phpBackslashSingleQuote: '' # SpecialChar
+phpParent: 'white' # Delimiter
+phpBrackets: 'white' # Delimiter
+phpIdentifierConst: '' # Delimiter
+phpParentError: '' # Error
+phpOctalError: '' # Error
+phpInterpSimpleError: '' # Error
+phpInterpBogusDollarCurley: '' # Error
+phpInterpDollarCurly1: '' # Error
+phpInterpDollarCurly2: '' # Error
+phpInterpSimpleBracketsInner: '' # String
+phpInterpSimpleCurly: '' # Delimiter
+phpInterpVarname: '' # Identifier
+phpTodo: '' # Todo
+phpDocTodo: '' # Todo
+phpMemberSelector: '' # Structure
+phpIntVar: '' # Identifier
+phpEnvVar: '' # Identifier
+phpOperator: '' # Operator
+phpVarSelector: '' # Operator
+phpRelation: '' # Operator
+phpIdentifier: 'white' # Identifier
+phpIdentifierSimply: '' # Identifier
+
+phpRegion: 'white'
+phpClass: 'white'
+phpClasses: 'white'
+phpClassExtends: 'white'
+phpStaticClasses: 'white'
+phpSuperglobals: 'white'
+phpMethodsVar: 'white'

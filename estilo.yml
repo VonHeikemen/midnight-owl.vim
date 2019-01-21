@@ -1,0 +1,10 @@
+name: 'midnight-owl'
+version: '0.0.1'
+license: 'MIT'
+author: 'Heiker'
+url: ''
+description: 'A port of Sarah Drasner Night Owl VSCode theme'
+colorschemes:
+  - name: midnight-owl
+    background: 'dark'
+    palette: night-owl-vim

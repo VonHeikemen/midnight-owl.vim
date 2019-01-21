@@ -1,0 +1,47 @@
+javaScriptComment: '' # Comment
+javaScriptLineComment: '' # Comment
+javaScriptCommentTodo: '' # Todo
+javaScriptSpecial: '' # Special
+javaScriptStringS: '' # String
+javaScriptStringD: '' # String
+javaScriptCharacter: '' # Character
+javaScriptSpecialCharacter: '' # javaScriptSpecial
+javaScriptNumber: '' # javaScriptValue
+javaScriptConditional: '' # Conditional
+javaScriptRepeat: '' # Repeat
+javaScriptBranch: '' # Conditional
+javaScriptOperator: '' # Operator
+javaScriptType: '' # Type
+javaScriptStatement: '' # Statement
+javaScriptFunction: '' # Function
+javaScriptBraces: '' # Function
+javaScriptError: '' # Error
+javaScriptParensError: '' # Error
+javaScriptNull: '' # Keyword
+javaScriptBoolean: '' # Boolean
+javaScriptRegexpString: '' # String
+javaScriptIdentifier: '' # Identifier
+javaScriptLabel: '' # Label
+javaScriptException: '' # Exception
+javaScriptMessage: '' # Keyword
+javaScriptGlobal: '' # Keyword
+javaScriptMember: '' # Keyword
+javaScriptDeprecated: '' # Exception
+javaScriptReserved: '' # Keyword
+javaScriptDebug: '' # Debug
+javaScriptConstant: '' # Label
+
+jsThis: 'light_cyan'
+jsSuper: 'light_cyan'
+jsArguments: 'light_cyan'
+jsClassKeyword: 'blue'
+jsDot: 'magenta'
+jsClassMethodType: 'magenta'
+jsClassDefinition: 'white'
+jsGlobalObjects: 'greenish_yellow'
+jsGlobalNodeObjects: 'greenish_yellow'
+jsExceptions: 'greenish_yellow'
+jsException: 'magenta'
+jsExportDefault: 'magenta'
+jsModuleAsterisk: 'red'
+jsTemplateBraces: 'red'

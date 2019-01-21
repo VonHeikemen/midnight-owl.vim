@@ -1,0 +1,31 @@
+markdownH1: 'live_blue' # htmlH1
+markdownH2: 'live_blue' # htmlH2
+markdownH3: 'live_blue' # htmlH3
+markdownH4: 'live_blue' # htmlH4
+markdownH5: 'live_blue' # htmlH5
+markdownH6: 'live_blue' # htmlH6
+markdownHeadingRule: '' # markdownRule
+markdownHeadingDelimiter: 'live_blue' # Delimiter
+markdownOrderedListMarker: '' # markdownListMarker
+markdownListMarker: 'white' # htmlTagName
+markdownBlockquote: 'bluish_grey' # Comment
+markdownRule: '' # PreProc
+markdownLinkText: 'white' # htmlLink
+markdownIdDeclaration: '' # Typedef
+markdownId: '' # Type
+markdownAutomaticLink: '' # markdownUrl
+markdownUrl: 'pink' # Float
+markdownUrlTitle: '' # String
+markdownIdDelimiter: '' # markdownLinkDelimiter
+markdownUrlDelimiter: '' # htmlTag
+markdownUrlTitleDelimiter: '' # Delimiter
+markdownItalic: 'greenish_yellow - i' # htmlItalic
+markdownBold: 'greenish_yellow - b' # htmlBold
+markdownBoldItalic: '' # htmlBoldItalic
+markdownCodeDelimiter: '' # Delimiter
+markdownEscape: '' # Special
+markdownError: '' # Error
+
+markdownLinkTextDelimiter: 'live_blue'
+markdownLinkDelimiter: 'light_cyan'
+markdownCode: 'real_gray'
