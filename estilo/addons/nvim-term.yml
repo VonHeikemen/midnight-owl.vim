@@ -1,18 +1,26 @@
-color_foreground: ''
-color_background: ''
-color_0: ''
-color_1: ''
-color_2: ''
-color_3: ''
-color_4: ''
-color_5: ''
-color_6: ''
-color_7: ''
-color_8: ''
+color_foreground: 'white'
+color_background: 'black'
+
+color_0: 'black'
+color_8: 'gray'
+
+color_1: 'pink'
 color_9: ''
-color_10: ''
-color_11: ''
-color_12: ''
-color_13: ''
-color_14: ''
-color_15: ''
+
+color_2: 'greenish_yellow'
+color_10: 'greenish_yellow'
+
+color_3: 'orange_ish'
+color_11: 'orange_ish'
+
+color_4: 'blue'
+color_12: 'blue'
+
+color_5: 'magenta'
+color_13: 'magenta'
+
+color_6: 'light_cyan'
+color_14: 'light_cyan'
+
+color_7: 'real_gray'
+color_15: 'darker_light'
