@@ -54,7 +54,7 @@ Character: '' # Constant
 Boolean: '' # Constant
 Number: 'orange_ish' # Constant
 Float: '' # Constant
-Identifier: ''
+Identifier: 'white'
 Function: 'blue' # Identifier
 Statement: 'magenta'
 Conditional: '' # Statement
@@ -63,8 +63,8 @@ Label: '' # Statement
 Operator: '' # Statement
 Keyword: '' # Statement
 Exception: 'light_cyan' # Statement
-PreProc: ''
-Include: '' # PreProc
+PreProc: 'white'
+Include: 'magenta' # PreProc
 Define: '' # PreProc
 Macro: '' # PreProc
 PreCondit: '' # PreProc

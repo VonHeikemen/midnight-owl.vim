@@ -4,7 +4,7 @@
 " URL: 
 " Author: Heiker
 " License: MIT
-" Last Change: 2019/01/21 01:21
+" Last Change: 2019/01/22 13:26
 " ===============================================================
 
 set background=dark
@@ -32,9 +32,12 @@ hi Comment guifg=#637777 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=it
 hi Constant guifg=#FF6363 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#ECC48D ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#F78C6C ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#C792EA ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi PreProc guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Include guifg=#C792EA ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Tag guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -99,17 +102,20 @@ hi markdownCode guifg=#AAAAAA ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi phpMethod guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpFunction guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpKeyword guifg=#C792EA ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpType guifg=#C792EA ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpType guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpInclude guifg=#C792EA ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpParent guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpBrackets guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpIdentifier guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpRegion guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpClass guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpClasses guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpClassExtends guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpStaticClasses guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpClass guifg=#FFCB8B ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpClasses guifg=#FFCB8B ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpClassExtends guifg=#ADDB67 ctermfg=149 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpFunctions guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpStaticClasses guifg=#FFCB8B ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpSuperglobals guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpMethodsVar guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpNewInstance guifg=#FFCB8B ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpLanguageVars guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockCollectionItemStart guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockMappingKey guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlKeyValueDelimiter guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

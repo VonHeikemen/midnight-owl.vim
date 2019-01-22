@@ -25,3 +25,31 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax enable
 colorscheme midnight-owl
 ```
+
+## Workarounds
+
+Some plugins don't provide enough information to make a consistent syntax hightlight, this are some workarounds that can be use in some languages.
+
+### PHP
+
+```vim
+function! PhpSyntaxOverride()
+  syn keyword phpLanguageVars this containedin=phpIdentifier
+  syn keyword phpLanguageVars parent self containedin=phpRegion
+  syn keyword phpFunctions isset
+  syn keyword phpKeyword public private protected containedin=phpType
+ 
+  syn match phpFunctionCall /\v\h\w*\ze(\s?\()/ 
+    \ containedin=phpRegion,phpIdentifier
+  syn match phpNewInstance /\v(new\s+)@<=\h\w*\ze(\s?\()/ 
+    \ containedin=phpRegion
+  
+  hi! link phpFunctionCall Function
+endfunction
+
+augroup phpSyntaxOverride
+  autocmd!
+  autocmd FileType php call PhpSyntaxOverride()
+augroup END
+```
+

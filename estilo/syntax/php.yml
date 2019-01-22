@@ -22,8 +22,8 @@ phpConditional: '' # Conditional
 phpLabel: '' # Label
 phpStatement: '' # Statement
 phpKeyword: 'magenta' # Statement
-phpType: 'magenta' # Type
-phpInclude: '' # Include
+phpType: 'blue' # Type
+phpInclude: 'magenta' # Include
 phpDefine: '' # Define
 phpBackslashSequences: '' # SpecialChar
 phpBackslashDoubleQuote: '' # SpecialChar
@@ -51,10 +51,15 @@ phpRelation: '' # Operator
 phpIdentifier: 'white' # Identifier
 phpIdentifierSimply: '' # Identifier
 
-phpRegion: 'white'
-phpClass: 'white'
-phpClasses: 'white'
-phpClassExtends: 'white'
-phpStaticClasses: 'white'
+phpClass: 'peach_orange'
+phpClasses: 'peach_orange'
+phpClassExtends: 'greenish_yellow'
+phpFunctions: 'blue' # Function
+phpStaticClasses: 'peach_orange'
 phpSuperglobals: 'white'
 phpMethodsVar: 'white'
+
+# workaround
+phpNewInstance: 'peach_orange'
+phpLanguageVars: 'light_cyan'
+
