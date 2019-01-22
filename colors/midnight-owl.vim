@@ -4,7 +4,7 @@
 " URL: 
 " Author: Heiker
 " License: MIT
-" Last Change: 2019/01/22 14:13
+" Last Change: 2019/01/22 17:47
 " ===============================================================
 
 set background=dark
@@ -14,12 +14,15 @@ if exists("syntax_on")
 endif
 let g:colors_name="midnight-owl"
 
+hi ColorColumn guibg=#25293A ctermbg=235 gui=NONE cterm=NONE
 hi Cursor guibg=#80A4C2 ctermbg=109 gui=NONE cterm=NONE
 hi CursorLine guibg=#01121F ctermbg=233 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#5CA7E4 ctermfg=74 guibg=#01121F ctermbg=233 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#4B6479 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
-hi IncSearch guibg=#1D3B53 ctermbg=237 gui=NONE cterm=NONE
+hi Folded guifg=#AAAAAA ctermfg=248 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi FoldColumn guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi IncSearch guifg=#D6DEEB ctermfg=253 guibg=#1D3B53 ctermbg=237 gui=NONE cterm=NONE
 hi LineNr guifg=#4B6479 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#011627 ctermfg=233 guibg=#5F7E97 ctermbg=66 gui=NONE cterm=NONE
 hi Normal guifg=#D6DEEB ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
@@ -42,6 +45,8 @@ hi Type guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Tag guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Error guifg=#D6DEEB ctermfg=253 guibg=#FF2C83 ctermbg=198 gui=NONE cterm=NONE
+hi Todo guifg=#011627 ctermfg=233 guibg=#82B1FF ctermbg=111 gui=NONE cterm=NONE
 hi cssVendor guifg=#ADDB67 ctermfg=149 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#FF6363 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssSelectorOp guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -114,6 +119,7 @@ hi phpFunctions guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi phpStaticClasses guifg=#FFCB8B ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpSuperglobals guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpMethodsVar guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpNullValue guifg=#FF6363 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpNewInstance guifg=#FFCB8B ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpLanguageVars guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockCollectionItemStart guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

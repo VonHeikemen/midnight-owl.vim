@@ -32,6 +32,7 @@ grayish_blue: '#4B6479'
 dark_purple:  '#2D2C5D'
 real_gray:    '#AAAAAA'
 darker_light: '#EEEEEE'
+bright_black: '#25293A'
 
 git_green: '#9CCC65'
 git_orange: '#E2B93D'

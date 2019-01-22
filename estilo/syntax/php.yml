@@ -58,6 +58,7 @@ phpFunctions: 'blue' # Function
 phpStaticClasses: 'peach_orange'
 phpSuperglobals: 'white'
 phpMethodsVar: 'white'
+phpNullValue: 'red'
 
 # workaround
 phpNewInstance: 'peach_orange'
