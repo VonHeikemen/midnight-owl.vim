@@ -4,7 +4,7 @@
 " URL: 
 " Author: Heiker
 " License: MIT
-" Last Change: 2019/01/22 17:47
+" Last Change: 2019/01/22 18:36
 " ===============================================================
 
 set background=dark
@@ -18,6 +18,10 @@ hi ColorColumn guibg=#25293A ctermbg=235 gui=NONE cterm=NONE
 hi Cursor guibg=#80A4C2 ctermbg=109 gui=NONE cterm=NONE
 hi CursorLine guibg=#01121F ctermbg=233 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#5CA7E4 ctermfg=74 guibg=#01121F ctermbg=233 gui=NONE cterm=NONE
+hi DiffAdd guifg=#011627 ctermfg=233 guibg=#ADDB67 ctermbg=149 gui=NONE cterm=NONE
+hi DiffChange guifg=#011627 ctermfg=233 guibg=#7FDBCA ctermbg=116 gui=NONE cterm=NONE
+hi DiffDelete guifg=#011627 ctermfg=233 guibg=#FF6363 ctermbg=203 gui=NONE cterm=NONE
+hi DiffText guifg=#011627 ctermfg=233 guibg=#7FDBCA ctermbg=116 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#4B6479 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi Folded guifg=#AAAAAA ctermfg=248 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
@@ -122,6 +126,9 @@ hi phpMethodsVar guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cter
 hi phpNullValue guifg=#FF6363 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpNewInstance guifg=#FFCB8B ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpLanguageVars guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi twigString guifg=#ECC48D ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi twigBlockName guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi twigFunction guifg=#82AAFF ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockCollectionItemStart guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockMappingKey guifg=#7FDBCA ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlKeyValueDelimiter guifg=#D6DEEB ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
