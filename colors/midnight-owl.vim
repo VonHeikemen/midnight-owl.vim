@@ -62,6 +62,9 @@ let s:support    = s:green
 let s:lang_var   = s:cyan
 let s:error      = s:pink
 
+let s:gray_term_1 = "#AAAAAA"
+let s:gray_term_2 = "#EEEEEE"
+
 " Highlight utility function
 " https://github.com/noahfrederick/vim-hemisu/
 " Usage: call s:h("", {"fg": s:none, "bg": s:none})
@@ -274,5 +277,5 @@ let g:terminal_color_5          = s:magenta.gui
 let g:terminal_color_13         = s:magenta.gui
 let g:terminal_color_6          = s:cyan.gui
 let g:terminal_color_14         = s:cyan.gui
-let g:terminal_color_7          = s:gray.gui 
-let g:terminal_color_15         = s:grayish_blue.gui
+let g:terminal_color_7          = s:gray_term_1
+let g:terminal_color_15         = s:gray_term_2
