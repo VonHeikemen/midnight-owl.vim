@@ -258,6 +258,15 @@ call s:h("phpLanguageVars",  {"fg": s:lang_var,   "bg": s:none})
 
 
 
+
+" Language: JSX
+" Syntax: 'maxmellon/vim-jsx-pretty'
+call s:h("jsxTagName",       {"fg": s:cyan,    "bg": s:none})
+call s:h("jsxComponentName", {"fg": s:orange,  "bg": s:none})
+call s:h("jsxPunct",         {"fg": s:cyan,    "bg": s:none})
+call s:h("jsxAttrib",        {"fg": s:support, "bg": s:none})
+
+
 " ============================================================================ "
 " ===                              NVIM TERM                               === "
 " ============================================================================ "
