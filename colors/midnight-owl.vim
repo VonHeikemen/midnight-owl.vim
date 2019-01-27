@@ -269,23 +269,52 @@ call s:h("jsxAttrib",        {"fg": s:support, "bg": s:none})
 
 
 " ============================================================================ "
-" ===                              NVIM TERM                               === "
+" ===                             TERM COLORS                              === "
 " ============================================================================ "
 
-let g:terminal_color_foreground = s:foreground.gui
-let g:terminal_color_background = s:black.gui
-let g:terminal_color_0          = s:black.gui
-let g:terminal_color_8          = s:gray.gui
-let g:terminal_color_1          = s:soft_pink.gui
-let g:terminal_color_2          = s:green.gui
-let g:terminal_color_10         = s:green.gui
-let g:terminal_color_3          = s:orange.gui
-let g:terminal_color_11         = s:orange.gui
-let g:terminal_color_4          = s:blue.gui
-let g:terminal_color_12         = s:blue.gui
-let g:terminal_color_5          = s:magenta.gui
-let g:terminal_color_13         = s:magenta.gui
-let g:terminal_color_6          = s:cyan.gui
-let g:terminal_color_14         = s:cyan.gui
-let g:terminal_color_7          = s:gray_term_1
-let g:terminal_color_15         = s:gray_term_2
+if has('nvim')
+  let g:terminal_color_foreground = s:foreground.gui
+  let g:terminal_color_background = s:black.gui
+ 
+  " black 
+  let g:terminal_color_0          = s:black.gui
+  let g:terminal_color_8          = s:gray.gui
+  
+  " red
+  let g:terminal_color_1          = s:soft_pink.gui
+  let g:terminal_color_9          = s:soft_pink.gui 
+  
+  " green
+  let g:terminal_color_2          = s:green.gui
+  let g:terminal_color_10         = s:green.gui
+  
+  " yellow
+  let g:terminal_color_3          = s:orange.gui
+  let g:terminal_color_11         = s:orange.gui
+  
+  " blue
+  let g:terminal_color_4          = s:blue.gui
+  let g:terminal_color_12         = s:blue.gui
+  
+  " magenta
+  let g:terminal_color_5          = s:magenta.gui
+  let g:terminal_color_13         = s:magenta.gui
+  
+  " cyan
+  let g:terminal_color_6          = s:cyan.gui
+  let g:terminal_color_14         = s:cyan.gui
+  
+  " white
+  let g:terminal_color_7          = s:gray_term_1
+  let g:terminal_color_15         = s:gray_term_2
+else
+  let g:terminal_ansi_colors = [
+    \ s:black.gui, s:soft_pink.gui, s:green.gui, s:orange.gui,
+    \ s:blue.gui,  s:magenta.gui,   s:cyan.gui,  s:gray_term_1,
+    \ s:gray.gui,  s:soft_pink.gui, s:green.gui, s:orange.gui,
+    \ s:blue.gui,  s:magenta.gui,   s:cyan.gui,  s:gray_term_2,
+    \ ] 
+endif
+
+
+
