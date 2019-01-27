@@ -34,17 +34,28 @@ Some plugins don't provide enough information to make a consistent syntax hightl
 
 ```vim
 function! PhpSyntaxOverride()
+  " Tweak keywords
   syn keyword phpLanguageVars this containedin=phpIdentifier
   syn keyword phpLanguageVars parent self containedin=phpRegion
-  syn keyword phpFunctions isset
+  syn keyword phpFunctions isset empty
   syn keyword phpKeyword public private protected containedin=phpType
- 
+
+  " New instance match
+  syn match phpClassReference /\v(new)@<=\s+\w*/ containedin=phpRegion
+
+  " Function call match
   syn match phpFunctionCall /\v\h\w*\ze(\s?\()/ 
     \ containedin=phpRegion,phpIdentifier
-  syn match phpNewInstance /\v(new\s+)@<=\h\w*\ze(\s?\()/ 
-    \ containedin=phpRegion
-  
+ 
+  " highlight all types of functions
   hi! link phpFunctionCall Function
+  hi! link phpMethod Function
+  hi! link phpFunction Function
+
+  " highlight all class references
+  hi! link phpClasses phpClassReference
+  hi! link phpStaticClasses phpClassReference
+  hi! link phpClass phpClassReference
 endfunction
 
 augroup phpSyntaxOverride

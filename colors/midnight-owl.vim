@@ -47,6 +47,7 @@ let s:yellow_ish   = {"gui": "#FAD430", "cterm": "221"}
 let s:sad_cyan     = {"gui": "#80CBC4", "cterm": "116"}
 let s:light_green  = {"gui": "#D9F5DD", "cterm": "194"}
 let s:soft_pink    = {"gui": "#FF869A", "cterm": "210"}
+let s:peach_orange = {"gui": "#FFCB8B", "cterm": "222"}
 
 " Constants
 let s:none       = {"gui": "NONE", "cterm": "NONE"}
@@ -238,24 +239,24 @@ call s:h("jsTemplateBraces",    {"fg": s:red,        "bg": s:none})
 
 " Language: PHP
 " Syntax: 'StanAngeloff/php.vim'
-call s:h("phpMethod",        {"fg": s:foreground, "bg": s:none})
-call s:h("phpFunction",      {"fg": s:foreground, "bg": s:none})
-call s:h("phpKeyword",       {"fg": s:keyword,    "bg": s:none})
-call s:h("phpType",          {"fg": s:storage,    "bg": s:none})
-call s:h("phpInclude",       {"fg": s:keyword,    "bg": s:none})
-call s:h("phpParent",        {"fg": s:foreground, "bg": s:none})
-call s:h("phpBrackets",      {"fg": s:foreground, "bg": s:none})
-call s:h("phpIdentifier",    {"fg": s:foreground, "bg": s:none})
-call s:h("phpClass",         {"fg": s:foreground, "bg": s:none})
-call s:h("phpClasses",       {"fg": s:support,    "bg": s:none})
-call s:h("phpClassExtends",  {"fg": s:support,    "bg": s:none})
-call s:h("phpFunctions",     {"fg": s:function,   "bg": s:none})
-call s:h("phpStaticClasses", {"fg": s:foreground, "bg": s:none})
-call s:h("phpSuperglobals",  {"fg": s:support,    "bg": s:none})
-call s:h("phpMethodsVar",    {"fg": s:foreground, "bg": s:none})
-call s:h("phpNullValue",     {"fg": s:constant,   "bg": s:none})
-call s:h("phpLanguageVars",  {"fg": s:lang_var,   "bg": s:none})
-
+call s:h("phpMethod",         {"fg": s:foreground,   "bg": s:none})
+call s:h("phpFunction",       {"fg": s:foreground,   "bg": s:none})
+call s:h("phpKeyword",        {"fg": s:keyword,      "bg": s:none})
+call s:h("phpType",           {"fg": s:storage,      "bg": s:none})
+call s:h("phpInclude",        {"fg": s:keyword,      "bg": s:none})
+call s:h("phpParent",         {"fg": s:foreground,   "bg": s:none})
+call s:h("phpBrackets",       {"fg": s:foreground,   "bg": s:none})
+call s:h("phpIdentifier",     {"fg": s:foreground,   "bg": s:none})
+call s:h("phpClass",          {"fg": s:foreground,   "bg": s:none})
+call s:h("phpClasses",        {"fg": s:support,      "bg": s:none})
+call s:h("phpClassExtends",   {"fg": s:support,      "bg": s:none})
+call s:h("phpFunctions",      {"fg": s:function,     "bg": s:none})
+call s:h("phpStaticClasses",  {"fg": s:foreground,   "bg": s:none})
+call s:h("phpSuperglobals",   {"fg": s:support,      "bg": s:none})
+call s:h("phpMethodsVar",     {"fg": s:foreground,   "bg": s:none})
+call s:h("phpNullValue",      {"fg": s:constant,     "bg": s:none})
+call s:h("phpLanguageVars",   {"fg": s:lang_var,     "bg": s:none})
+call s:h("phpClassReference", {"fg": s:peach_orange, "bg": s:none})
 
 
 
