@@ -53,6 +53,10 @@ getPrice()
 
 async function asyncCall() {
   var result = await resolveAfter2Seconds();
+  null; 
+  undefined; 
+  NaN; 
+  Infinity;
 }
 
 for (let i=0; i <10; i++) {

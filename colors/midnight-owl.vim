@@ -85,18 +85,18 @@ endfunction
 " ===                               BASE UI                                === "
 " ============================================================================ "
 
-call s:h("Normal",       {"fg": s:foreground,   "bg": s:black       })
+call s:h("Normal",       {"fg": s:foreground,   "bg": s:none        })
 call s:h("Cursor",       {"fg": s:none,         "bg": s:light_blue  })
 call s:h("CursorLine",   {"fg": s:none,         "bg": s:dark_blue   })
-call s:h("CursorLineNr", {"fg": s:none,         "bg": s:dark_blue   })
+call s:h("CursorLineNr", {"fg": s:none,         "bg": s:black       })
 call s:h("ColorColumn",  {"fg": s:none,         "bg": s:bright_black})
 call s:h("LineNr",       {"fg": s:grayish_blue, "bg": s:none        })
 call s:h("EndOfBuffer",  {"fg": s:grayish_blue, "bg": s:none        })
 call s:h("VertSplit",    {"fg": s:gray,         "bg": s:none        })
 call s:h("Folded",       {"fg": s:gray,         "bg": s:black       })
 call s:h("FoldColumn",   {"fg": s:gray,         "bg": s:black       })
-call s:h("PMenu",        {"fg": s:none,         "bg": s:dark_purple })
-call s:h("PMenuSel",     {"fg": s:black,        "bg": s:magenta     })
+call s:h("PMenu",        {"fg": s:none,         "bg": s:sad_blue    })
+call s:h("PMenuSel",     {"fg": s:black,        "bg": s:live_blue   })
 call s:h("MatchParen",   {"fg": s:black,        "bg": s:cold_blue   })
 call s:h("Visual",       {"fg": s:white,        "bg": s:sad_blue    })
 call s:h("Search",       {"fg": s:darkness,     "bg": s:cold_blue   })
@@ -249,7 +249,7 @@ call s:h("phpBrackets",       {"fg": s:foreground,   "bg": s:none})
 call s:h("phpIdentifier",     {"fg": s:foreground,   "bg": s:none})
 call s:h("phpClass",          {"fg": s:foreground,   "bg": s:none})
 call s:h("phpClasses",        {"fg": s:support,      "bg": s:none})
-call s:h("phpClassExtends",   {"fg": s:support,      "bg": s:none})
+call s:h("phpClassExtends",   {"fg": s:none,         "bg": s:none})
 call s:h("phpFunctions",      {"fg": s:function,     "bg": s:none})
 call s:h("phpStaticClasses",  {"fg": s:foreground,   "bg": s:none})
 call s:h("phpSuperglobals",   {"fg": s:support,      "bg": s:none})
@@ -266,7 +266,7 @@ call s:h("jsxTagName",       {"fg": s:cyan,    "bg": s:none})
 call s:h("jsxComponentName", {"fg": s:orange,  "bg": s:none})
 call s:h("jsxPunct",         {"fg": s:cyan,    "bg": s:none})
 call s:h("jsxAttrib",        {"fg": s:support, "bg": s:none})
-
+call s:h("jsxCloseString",   {"fg": s:cyan,    "bg": s:none})
 
 " ============================================================================ "
 " ===                             TERM COLORS                              === "
@@ -315,6 +315,3 @@ else
     \ s:blue.gui,  s:magenta.gui,   s:cyan.gui,  s:gray_term_2,
     \ ] 
 endif
-
-
-
